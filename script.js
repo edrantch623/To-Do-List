@@ -12,7 +12,6 @@ for (i = 0; i < taskList.length; i++) {
 
 // Clicking close button to hide selected task
 let close = document.getElementsByClassName("close");
-let i;
 for (i = 0; i < close.length; i++) {
     close[i].onclick = function() {
         let div = this.parentElement;
