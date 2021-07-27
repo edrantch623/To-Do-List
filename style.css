@@ -35,14 +35,14 @@ ul li:hover {
 }
 
 /* Adds background color and stikethrough when clicked */ 
-ul li.checked {
+ul li.checkedTask {
     background: #888;
     color: #fff;
     text-decoration: line-through;
 }
 
 /* Adds check marked when task is clicked */
-ul li.checked::before {
+ul li.checkedTask::before {
     content: '';
     position: absolute;
     border-color: #fff;
@@ -53,6 +53,19 @@ ul li.checked::before {
     transform: rotate(45deg);
     height: 15px;
     width: 7px; 
+}
+
+/* Close button styling */
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color: red;
+    color: white;
 }
 
 
