@@ -14,7 +14,7 @@ ul li {
 cursor: pointer;
 position: relative;
 padding: 12px 8x 12px 40px;
-background: white;
+background: #eee;
 font-size: 18px;
 transition: 0.2s;
 
@@ -24,6 +24,35 @@ transition: 0.2s;
 user-select: none;
 }
 
+/* Makes odd Task list items a different color */
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
 
+/* Adds dark background when mouse hovers */
+ul li:hover {
+    background: #ddd;
+}
+
+/* Adds background color and stikethrough when clicked */ 
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+/* Adds check marked when task is clicked */
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px; 
+}
 
 
