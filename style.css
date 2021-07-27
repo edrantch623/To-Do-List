@@ -94,3 +94,21 @@ input {
     font-size: 16px;
 }
 
+/* Add button style */
+.addButton {
+    padding: 10px;
+    width: 25%;
+    background: lightgray;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
+.addButton:hover {
+    background-color: #bbb;
+}
+
