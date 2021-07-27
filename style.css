@@ -15,4 +15,15 @@ cursor: pointer;
 position: relative;
 padding: 12px 8x 12px 40px;
 background: white;
+font-size: 18px;
+transition: 0.2s;
+
+/* This makes Task list items unselectable */
+-webkit-user-select: none;
+-moz-user-select: none;
+user-select: none;
 }
+
+
+
+
