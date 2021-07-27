@@ -1,0 +1,18 @@
+/* Includes padding and border for element's total height and width */
+* {
+    box-sizing: border-box;
+}
+
+/* Gets rid of margin and padding from Task List */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Task List Style */
+ul li {
+cursor: pointer;
+position: relative;
+padding: 12px 8x 12px 40px;
+background: white;
+}
