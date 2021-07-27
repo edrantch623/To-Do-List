@@ -64,8 +64,33 @@ ul li.checkedTask::before {
 }
 
 .close:hover {
-    background-color: red;
+    background-color: purple;
     color: white;
 }
 
+/* Header style*/ 
+.header {
+    background-color: purple;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+/* Clear floats after the header */
+.header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Input text stlye */ 
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
 
