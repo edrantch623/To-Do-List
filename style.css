@@ -5,6 +5,7 @@
 
   body {
       background-color: black;
+      max-width: 75%;
   }
   
   /* Remove margins and padding from the list */
