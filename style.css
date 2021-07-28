@@ -21,6 +21,7 @@ transition: 0.2s;
 /* This makes Task list items unselectable */
 -webkit-user-select: none;
 -moz-user-select: none;
+-ms-user-select: none;
 user-select: none;
 }
 
